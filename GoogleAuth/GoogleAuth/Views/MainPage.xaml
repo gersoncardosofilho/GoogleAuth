@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:GoogleAuth"
              x:Class="GoogleAuth.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Button Text="Login" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding LoginAsyncCommand}" />
 
 </ContentPage>
